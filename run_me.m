@@ -1,0 +1,3 @@
+addpath('./kinematics', './control', './dynamics', './set_parameters/', ...
+    './solve_eqns/', './visualize', './analysis', './test_results')
+test_the_results
