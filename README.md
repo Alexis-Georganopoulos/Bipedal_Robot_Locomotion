@@ -43,4 +43,7 @@ Other notable scripts include:
 # Running the code
 To run the simulation, download the repo and run the [`run_me.m`](run_me.m) script.<br>
 All folders must be in the same directory.<br>
-The animation will automatically start, and last $\sim 20$ seconds, then all of associated the metrics & plots will appear (8 plots, main metrics in command window).
+The animation will automatically start, and last $\sim 20$ seconds, then all of associated the metrics & plots will appear (8 plots, metrics in command window). <br> <br>
+The command window should look like this:
+
+![step_speed](images/command.JPG)
