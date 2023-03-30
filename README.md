@@ -2,7 +2,7 @@
 
 The bipedal walker simulation code contains various functions that simulate the dynamics of a simple 3-link bipedal walker. The walker is modelled as a rigid body with three segments: a torso and two legs. The simulation is performed using the Euler-Lagrange equations of motion, and the gait is generated using a hybrid zero dynamics-based + impedance controller. <br>
 The simulation also includes a ground contact model and a collision handling method.<br>
-[Run the code!](#running-the-code)
+[Run the code!](#running-the-code)<br>
 ![bipedal_animation](images/biped_animate.gif)
 
 The main features are:
@@ -18,8 +18,9 @@ The remaining code is used to plot various metrics, such as the angles and veloc
 It also calculates the cost of transport, which is a measure of the energy efficiency of the gait.
 <br> <br>
 For example, below we see how the average speed of the hip evolves:
+
 ![step_speed](images/hipspeed.jpg) <br>
-For the full example plots, see the images in `images/` folder
+For the full example plots, see the images in [`images/`](images/) folder
 
 Overall, the code provides a basic implementation of a 3-link bipedal walker and a simple hybrid zero dynamics + impedance controller. <br>
 The simulation results & metrics can be used to evaluate the performance of the controller and the efficiency of the gait.
