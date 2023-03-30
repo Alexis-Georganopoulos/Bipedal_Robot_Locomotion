@@ -17,8 +17,9 @@ _**NOTE** that in this case, the impedance controller happens to coincide with a
 The remaining code is used to plot various metrics, such as the angles and velocities of the joints over time, the speed of the hip joint, the distance travelled by the bipedal walker in each step, the step frequency, and the torque applied to the actuators over time. <br> 
 It also calculates the cost of transport, which is a measure of the energy efficiency of the gait.
 <br> <br>
-For example, below we see how the average speed of a step evolves from start to end:
-![step_speed](images/avgspeedstep.jpg)
+For example, below we see how the average speed of the hip evolves:
+![step_speed](images/hipspeed.jpg) <br>
+For the full example plots, see the images in `images/` folder
 
 Overall, the code provides a basic implementation of a 3-link bipedal walker and a simple hybrid zero dynamics + impedance controller. <br>
 The simulation results & metrics can be used to evaluate the performance of the controller and the efficiency of the gait.
@@ -29,7 +30,7 @@ Other notable scripts include:
 
 - The `eqns` function defines the equations of motion for the system, which are solved in `solve_eqns` (using the `ODE45`). It is used with an event function to detect collisions with the ground. The function returns the time vector T, the solution Y, the event time TE, and the solution at the event time YE.
 
-## Running the code
+# Running the code
 To run the simulation, download the repo and run the `run_me.m` script.<br>
 All folders must be in the same directory.<br>
 The animation will automatically start, and last $\sim 20$ seconds, then all of associated the metrics & plots will appear (8 plots, main metrics in command window).
